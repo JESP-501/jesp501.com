@@ -1,0 +1,17 @@
+{
+  "name": "jesp501.com",
+  "version": "1.0.0",
+  "description": "Personal website, joining the return to small internet corners. Resist the bloat of AI and bot's used everywhere!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^5.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

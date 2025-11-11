@@ -1,0 +1,5 @@
+
+    const cmd = require("C:/Users/pablo/OneDrive/Documents/GitHub/jesp501.com/node_modules/gatsby/dist/commands/develop-process.js");
+    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":8000,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"$0":"gatsby","directory":"C:\\Users\\pablo\\OneDrive\\Documents\\GitHub\\jesp501.com","browserslist":[">0.25%","not dead"],"sitePackageJson":{"name":"jesp501.com","version":"1.0.0","description":"Personal website, joining the return to small internet corners. Resist the bloat of AI and bot's used everywhere!!","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":"","license":"ISC","dependencies":{"gatsby":"^5.15.0","react":"^18.3.1","react-dom":"^18.3.1"}},"report":{"errorMap":{}},"useYarn":false,"proxyPort":8000,"debugInfo":null};
+    cmd(args);
+  

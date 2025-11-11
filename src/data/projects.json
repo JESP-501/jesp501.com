@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with Gatsby and React. Showcases my projects, blog, and more.",
+    "link": "https://github.com/yourusername/portfolio"
+  },
+  {
+    "title": "Media Tracker App",
+    "description": "An app to track movies, TV shows, games, and books. Built with React and local JSON storage.",
+    "link": "https://github.com/yourusername/media-tracker"
+  },
+  {
+    "title": "Blog Platform",
+    "description": "A static blog site built with Gatsby and Markdown content, optimized for SEO.",
+    "link": "https://github.com/yourusername/blog-platform"
+  }
+]

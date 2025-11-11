@@ -1,0 +1,16 @@
+exports.components = {
+  "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js?export=default" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-404-js": () => import("./../../../src/pages/404.js?export=default" /* webpackChunkName: "component---src-pages-404-js" */),
+  "component---src-pages-aboutme-js": () => import("./../../../src/pages/aboutme.js?export=default" /* webpackChunkName: "component---src-pages-aboutme-js" */),
+  "component---src-pages-backlog-js": () => import("./../../../src/pages/backlog.js?export=default" /* webpackChunkName: "component---src-pages-backlog-js" */),
+  "component---src-pages-blog-js": () => import("./../../../src/pages/blog.js?export=default" /* webpackChunkName: "component---src-pages-blog-js" */),
+  "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-projects-js": () => import("./../../../src/pages/projects.js?export=default" /* webpackChunkName: "component---src-pages-projects-js" */)
+}
+
+
+
+exports.head = {
+
+}
+

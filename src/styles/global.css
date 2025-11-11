@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* ---------- Base ---------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(to bottom, #004883, #006ea3);
+  color: white;
+}
+
+/* A flex column layout to keep footer at bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area expands naturally */
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 4rem; /* keeps footer from covering content */
+}
+
+/* ---------- Header / Navbar ---------- */
+header.header {
+  background: #192359;
+  padding: 1rem 0;
+}
+
+/* Home page nav buttons */
+.home-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap; /* wrap on small screens */
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.nav-button {
+  text-decoration: none;
+  background: linear-gradient(135deg, #006ea3, #0094b5); /* gradient matches body */
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.nav-button:hover {
+  background: linear-gradient(135deg, #00345c, #005177); /* slightly darker gradient on hover */
+  transform: translateY(-2px); /* subtle lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Center navbar items horizontally */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer.footer {
+  background: #192359;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-icon {
+  color: white;
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease, filter 0.3s ease;
+  vertical-align: middle;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+  filter: brightness(0.8) invert(0.9);
+}
+
+/* ---------- Project Card ---------- */
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #222;
+}
